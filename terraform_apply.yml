@@ -1,0 +1,10 @@
+---
+
+- hosts: localhost
+  environment:
+    PATH: '/usr/bin:/usr/sbin'
+  #tasks:
+    #- name: Launch Terraform Environment
+      #terraform:
+        #project_path: "{/Users/chrisbeville/AllianceClusterBuild}"
+        #state: present
