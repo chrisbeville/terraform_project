@@ -1,8 +1,0 @@
----
-#
-#- name: "apply : {{ tf_name }}"
-#  terraform:
-#    project_path: "{{ tf_path }}"
-#    state: "{{ tf_state }}"
-#    variables: "{{ tf_vars_args | default(omit) }}"
-#  register: tf_result
